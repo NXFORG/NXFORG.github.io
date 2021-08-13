@@ -1,6 +1,4 @@
 <template>
-<div id="app">
- <v-app>
   <div>
     <v-app-bar color="blue-grey darken-3" dense dark>
     <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
@@ -17,8 +15,6 @@
      </v-list>
     </v-navigation-drawer>
   </div>
- </v-app>
-</div>
 </template>
 
 <script>
